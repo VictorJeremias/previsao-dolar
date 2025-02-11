@@ -5,7 +5,7 @@ import statsmodels.api as sm
 import yfinance as yf
 from datetime import datetime, timedelta
 
-# Definir período de coleta de dados
+# Período de coleta de dados
 hoje = datetime.today()
 data_inicio = "2015-01-01"
 data_fim = hoje.strftime('%Y-%m-%d')
@@ -38,7 +38,7 @@ else:
 
     # Criar modelo ARIMA para previsão
     def treinar_modelo_arima(dados):
-        modelo = sm.tsa.ARIMA(dados, order=(5, 1, 0))  # Ajuste os parâmetros conforme necessário
+        modelo = sm.tsa.ARIMA(dados, order=(5, 1, 0))
         modelo_ajustado = modelo.fit()
         return modelo_ajustado
 
