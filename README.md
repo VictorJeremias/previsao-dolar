@@ -44,11 +44,6 @@ Este projeto utiliza dados do Yahoo Finance para obter a cotação do dólar nos
 2. O código baixará os dados do dólar, treinará o modelo e gerará previsões para os próximos 30 dias.
 3. Os resultados serão exibidos em gráficos interativos.
 
-## 📊 Exemplo de Saída
-
-O script exibirá gráficos como este:
-
-![Gráfico de Previsão](https://via.placeholder.com/800x400.png?text=Previsao+do+Dolar)
 
 ## 📌 Ajuste dos Parâmetros do ARIMA
 
